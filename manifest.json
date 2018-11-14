@@ -1,8 +1,8 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "Google Automatic Lyric Extender",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
+  "description": "Automatically extends lyrics to display all of them when googling",
   "homepage_url": "http://extensionizr.com",
   "icons": {
     "16": "icons/icon16.png",
@@ -18,7 +18,7 @@
   },
   "page_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "page action demo",
+    "default_title": "Auto lyric extender",
     "default_popup": "src/page_action/page_action.html"
   },
   "permissions": [

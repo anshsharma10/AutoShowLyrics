@@ -8,7 +8,7 @@ chrome.extension.sendMessage({}, function (response) {
 			var searchText = searchBox.getAttribute("value");
 			console.log(searchText);
 			if (searchText.indexOf("lyrics") !== -1 || searchText.indexOf("Lyrics") !== -1) {
-				var openTab = document.getElementById("uid_2");
+				var openTab = document.getElementsByClassName("xpdns")[0];
 				var c = openTab.childNodes;
 				for (i = 0; i < c.length; i++) {
 					if (c[i].getAttribute("class")) {
